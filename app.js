@@ -4,19 +4,19 @@
 // Question 1
 
 // function power(a, b) {
-//   let result = 1
+//   var result = 1
 
-//   for (let i = 1; i <= b; i++) {
+//   for (var i = 1; i <= b; i++) {
 //     result *= a
 //   }
 
 //   return result
 // }
 
-// let base = parseInt(prompt("Enter base (a):"))
-// let exponent = parseInt(prompt("Enter exponent (b):"))
+// var base = parseInt(prompt("Enter base (a):"))
+// var exponent = parseInt(prompt("Enter exponent (b):"))
 
-// let answer = power(base, exponent)
+// var answer = power(base, exponent)
 // alert(base + " raised to " + exponent + " is " + answer)
 
 // Question 2
@@ -33,7 +33,7 @@
 //   }
 // }
 
-// let year = parseInt(prompt("Enter a year:"))
+// var year = parseInt(prompt("Enter a year:"))
 // if (isLeapYear(year)) {
 //   alert(year + " is a Leap Year")
 // } else {
@@ -48,16 +48,16 @@
 // }
 
 // function areaOfTriangle(a, b, c) {
-//   let S = semiPerimeter(a, b, c);
-//   let area = Math.sqrt(S * (S - a) * (S - b) * (S - c));
+//   var S = semiPerimeter(a, b, c);
+//   var area = Math.sqrt(S * (S - a) * (S - b) * (S - c));
 //   return area;
 // }
 
-// let a = parseFloat(prompt("Enter side a:"));
-// let b = parseFloat(prompt("Enter side b:"));
-// let c = parseFloat(prompt("Enter side c:"));
+// var a = parseFloat(prompt("Enter side a:"));
+// var b = parseFloat(prompt("Enter side b:"));
+// var c = parseFloat(prompt("Enter side c:"));
 
-// let area = areaOfTriangle(a, b, c);
+// var area = areaOfTriangle(a, b, c);
 // alert("Area of triangle is: " + area.toFixed(2));
 
 
@@ -68,28 +68,28 @@
 // }
 
 // function percentageFunction(m1, m2, m3) {
-//   let total = m1 + m2 + m3
+//   var total = m1 + m2 + m3
 //   return (total / 300) * 100
 // }
 
 // function mainFunction(m1, m2, m3) {
-//   let avg = averageFunction(m1, m2, m3)
-//   let perc = percentageFunction(m1, m2, m3)
+//   var avg = averageFunction(m1, m2, m3)
+//   var perc = percentageFunction(m1, m2, m3)
 
 //   console.log("Average marks: " + avg.toFixed(2));
 //   console.log("Percentage: " + perc.toFixed(2) + "%")
 // }
 
-// let m1 = parseInt(prompt("Enter marks for Subject 1:"))
-// let m2 = parseInt(prompt("Enter marks for Subject 2:"))
-// let m3 = parseInt(prompt("Enter marks for Subject 3:"))
+// var m1 = parseInt(prompt("Enter marks for Subject 1:"))
+// var m2 = parseInt(prompt("Enter marks for Subject 2:"))
+// var m3 = parseInt(prompt("Enter marks for Subject 3:"))
 
 // mainFunction(m1, m2, m3)
 
 // Question 5
 
 // function myIndexOf(str, ch) {
-//   for (let i = 0; i < str.length; i++) {
+//   for (var i = 0; i < str.length; i++) {
 //     if (str[i] === ch) {
 //       return i
 //     }
